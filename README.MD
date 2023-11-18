@@ -15,7 +15,7 @@ I assume you know how to take apart your Chiron, but in case you don’t do as f
 - Locate the jumper next to the USB port and move it the side that says USB, also check to see if your board says V 0.0.2.  If not, I cannot guarantee this will work for you.
 - A break out board will be above the ICSP (highlighted in Green)
 
-![Alt text](image-1-1.png)
+
 
 ---
 
