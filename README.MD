@@ -9,19 +9,22 @@ I assume you know how to take apart your Chiron, but in case you don’t do as f
 
 - Unplug it, slide the gantry all the way to the left and place it on its left side.
 - Unscrew all the screws from the underside of the Chiron seen below
-![Alt text](image-2.png)
+
+
+![Alt text](TearDown-1.png)
+
 ##### (Original image taken from TH3D (too lazy to take mine apart…. Again.)
 
 - Locate the jumper next to the USB port and move it the side that says USB, also check to see if your board says V 0.0.2.  If not, I cannot guarantee this will work for you.
 - A break out board will be above the ICSP (highlighted in Green)
 
-
+![Alt text](InfoBoard-1.png)
 
 ---
 
 ## Now pull out your Arduino or whatever your favorite programer is.  We will be placing the jumper wires to install the bootloader, please make sure you hook up these wires correctly.
 
-![Alt text](WireDiagram.png)
+![Alt text](WireDiagram-1.png)
 
 ## We are almost done with the hardest part!
 
@@ -31,11 +34,11 @@ Once inside the Arduino IDE make sure your Arduino is connected and selected.
 ##### (make sure to close any other programs that may be using your com ports for example cura or pronterface)
 ---
 
-![Alt text](<Screenshot 2023-11-17 220517.png>)
+![Alt text](SelectCom-1.png)
 
 Then select Arduino as ISP.
 
-![Alt text](<Screenshot 2023-11-17 220306.png>)
+![Alt text](ArduinoProg-1.png)
 
 Once that is done you can click the arrow next to the checkmark. If all is sucessful the command line should say  " *avrdude done. Thank you.* ".
 
@@ -43,7 +46,7 @@ Once that is done you can click the arrow next to the checkmark. If all is suces
 
 Unplug the Arduino and plug it back in, now navigate back to the tools menu.  Here we will make the changes seen below.
 
-![Alt text](SelectForBurn.png)
+![Alt text](SelectForBurn-1.png)
 
 Once the proper changes have been made press " **Burn Bootloader** ".  If no errors then ***Congrats*** you now have a boot loader on your chiron!
 
@@ -63,5 +66,6 @@ Once the proper changes have been made press " **Burn Bootloader** ".  If no err
 - Once the project is loaded make sure to select the board that is populated in the Com drop down menu, and press the arrow.
 
 ## VIOLA YOU ARE DONE!! YAY
+
 
 
