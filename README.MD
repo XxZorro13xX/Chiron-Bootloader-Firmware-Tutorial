@@ -1,4 +1,4 @@
-# Anycubic Chiron Marlin Firmware install
+# Anycubic Chiron Marlin Firmware Install Guide
 
 
 
